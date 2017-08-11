@@ -1,0 +1,161 @@
+html {
+  font-size: 18px;
+  line-height: 1.4px;
+  font-family: helvetica;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.2px;
+  font-weight: bold;
+}
+
+h3 {
+  background-color: cadetblue;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+p {
+  max-width: 85%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.jumbotron {
+  height: 30rem;
+  background-image: url("../images/glasses-bg.png");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+nav {
+  font-size: 1rem;
+  position: relative;
+  top: 1rem;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+nav li {
+  display: inline-block;
+  padding: 1rem 2rem 1rem 0;
+}
+
+nav img {
+  height: 1.5rem;
+  padding: 0 1rem 0 2rem;
+}
+
+.logo {                           /* Left side of navigation bar */
+  display: flex;
+  align-items: center;
+}
+
+header {                          /* Headline box inside Jumbotron */
+  background-color: white;
+  padding: 1.5rem 5rem;
+  position: absolute;
+  right: -2rem;
+  top: 15rem;
+}
+
+/* Start of paper ruler truck banner */
+.icon-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.sm-container {
+  margin-right: 6rem;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.zeromargin {                      /* Margin fix for proper scaling of rightmost icon */
+  margin-right: 0;
+}
+
+.sm-container img {
+  max-width: 5rem;
+}
+
+.exams img {
+  max-width: 3.5rem;
+}
+
+/* Start of Philosophy and Appointments paragraph content */
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  display: block;
+  width: 35%;
+  margin-right: 5%;
+}
+
+/* Start of footer */
+
+footer {
+  display: relative;
+  background-color: azure;
+  top: 4rem;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+}
+
+.copyright img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 4rem;
+}
+
+/* Media Query Tablet size */
+@media only screen and (max-width: 960px){
+
+  .jumbotron {
+    height: 22rem;
+    background-position: center;
+  }
+
+  nav {
+    top: 0rem;
+  }
+
+  header {
+    top: 7.5rem;
+    right: 2rem;
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+  }
+
+}
